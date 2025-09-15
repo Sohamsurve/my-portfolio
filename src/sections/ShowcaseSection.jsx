@@ -46,73 +46,75 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full ">
-  
-        <div className="showcaselayout">
+         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/carePulse.png" alt="CarePulse App"/>
             </div>
             <div className="text-content">
               <h2>
-                CarePulse – Scalable Healthcare SaaS Platform for Patient Registration, Scheduling, and Automated Reminders
+                CarePulse – Scalable Healthcare SaaS Platform for Patient Registration, Scheduling.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A Healthcare SaaS platform built with Next.js, TypeScript & Twilio for fast, scalable, and user-friendly patient management.
               </p>
             </div>
 
             <br/>
 
             {/* second project*/}
+
+            <div className="second-project-wrapper">
+              <div className="image-wrapper">
+                <img src="/images/metaversus.jpeg" alt="Metaversus App Interface"/>
+              </div>
+              <div className="text-content">
+                <h2>
+                  Metaversus - Powerful, User-Friendly Landing Page
+                </h2>
+                <p className="text-white-50 md:text-xl">
+                  An app built with React, Three.js, & TailwindCSS for a fast,
+                  user-friendly experience.
+                </p>
+              </div>
+            </div>
+
             
-            <div className="image-wrapper h-[350px]">
-              <img src="/images/project1.png" alt="Ryde App Interface"/>
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
           </div>
 
          
           {/* third project*/}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="image-wrapper bg-[#FFEFDB]" >
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/weather.jpeg"
+                  alt="Weather Forecasting App"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>The Weather Forecasting App</h2>
             </div>
 
             {/* fourth project*/}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/reunion.jpeg" alt="Alumni Reunion App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Alumni Reunion App</h2>
             </div>
 
             {/* fifth project*/}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/FashionStreet.png" alt="FashionStreet - A Fashion E-commerce App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>FashionStreet - A Fashion E-commerce App</h2>
             </div>
 
             
           </div>
         </div>
+        
       </div>
     </div>
   );
