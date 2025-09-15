@@ -160,15 +160,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Soham brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/walmart_global_tech-logo.png",
-    logoPath: "/images/wmlogo.png",
-    title: "Application Developer Intern (Virtual)",
-    date: "October 2024 - November 2024",
+  review: "Delivered functional analysis and built interactive, high-performance frontend modules for analytics and billing, showcasing strong problem-solving and UI development skills.",
+    imgPath: "/images/gadre_infotech.png",
+    logoPath: "/images/gadre_infotech.png",
+    title: "Software Developer Intern",
+    date: "March 2025 - June 2025",
     responsibilities: [
-      "Developed a Java-based heap data structure, optimizing shipping efficiency by 30%.",
-      "Created UML diagrams and database models to enhance system architecture and data organization.", 
-      "Applied algorithmic thinking and software design to improve performance, achieving 95% error-free performance in data processing and operations.", 
+      "Analysed and understood the structure and functionality of EzyBiller, a GST invoicing and billing application, to prepare a functional analysis report.",
+      "Developed interactive frontend components, reducing manual reporting time by 20% and enhancing data clarity for business users.",
+      "Built responsive frontend modules for analytics and billing, optimizing performance and state management while integrating seamlessly with backend APIs.",
     ],
   },
  
@@ -177,7 +177,7 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/wmlogo.png",
+    imgPath: "/images/gadre_infotech.png",
   },
 ];
 
