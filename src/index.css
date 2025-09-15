@@ -165,7 +165,7 @@ section {
       @apply h-full flex xl:flex-col justify-between xl:w-[60%] relative;
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        @apply xl:h-[60vh] md:h-[30vh] h-96 relative;
 
         img {
           @apply w-full h-full object-cover rounded-xl absolute inset-0;
@@ -180,7 +180,31 @@ section {
         }
 
         h2 {
-          @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+          @apply text-2xl md:text-3xl lg:text-3xl font-bold;
+        }
+      }
+    }
+    
+    .second-project-wrapper {
+      @apply h-full flex xl:flex-col justify-between xl:w-[100%] relative;
+
+      .image-wrapper {
+        @apply xl:h-[50vh] md:h-[30vh] h-96 relative;
+
+        img {
+          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+        }
+      }
+
+      .text-content {
+        @apply space-y-5 mt-5;
+
+        .badges {
+          @apply flex gap-2 mb-4;
+        }
+
+        h2 {
+          @apply text-2xl md:text-3xl lg:text-3xl font-bold;
         }
       }
     }
@@ -189,7 +213,7 @@ section {
       @apply flex md:flex-row flex-col xl:flex-col  gap-10 xl:w-[40%];
 
       .image-wrapper {
-        @apply xl:h-[50vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
+        @apply xl:h-[39vh] md:h-42 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
 
       img {
