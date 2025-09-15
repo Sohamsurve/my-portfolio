@@ -186,7 +186,7 @@ const expLogos = [
 const socialImgs = [
   {
     name: "insta",
-    link: "#",
+    link: "https://www.instagram.com/sohamsurve_1663/",
     imgPath: "/images/insta.png",
   },
   {
